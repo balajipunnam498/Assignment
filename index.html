@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="heading">
+        <div class="line"></div>
+        <div class="text">Bundle & Save</div>
+        <div class="line"></div>
+    </div>
+
+    <div class="cards-container">
+        <div class="bundle-card" onclick="selectCard(this, 195)">
+            <input type="radio" name="bundle" class="radio-btn">
+            <div class="card-content">
+                <div class="card-header">
+                    <span>1 Pair</span>
+                    <span class="discount">50% OFF</span>
+                </div>
+                <p class="price">DKK 195.00</p>
+                <div class="options">
+                    <div class="option-row">
+                        <span>#1</span>
+                        <select class="dropdown">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select class="dropdown">
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div class="option-row">
+                        <span>#2</span>
+                        <select class="dropdown">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select class="dropdown">
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bundle-card" onclick="selectCard(this, 345)">
+            <input type="radio" name="bundle" class="radio-btn">
+            <div class="card-content">
+                <div class="card-header">
+                    <span>2 Pair</span>
+                    <span class="popular">Most Popular</span>
+                    <span class="discount">40% OFF</span>
+                </div>
+                <p class="price">DKK 345.00</p>
+                <p class="old-price">DKK 195.00</p>
+                <div class="options">
+                    <div class="option-row">
+                        <span>#1</span>
+                        <select class="dropdown">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select class="dropdown">
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div class="option-row">
+                        <span>#2</span>
+                        <select class="dropdown">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select class="dropdown">
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bundle-card" onclick="selectCard(this, 528)">
+            <input type="radio" name="bundle" class="radio-btn">
+            <div class="card-content">
+                <div class="card-header">
+                    <span>3 Pair</span>
+                    <span class="discount">60% OFF</span>
+                </div>
+                <p class="price">DKK 528.00</p>
+                <div class="options">
+                    <div class="option-row">
+                        <span>#1</span>
+                        <select class="dropdown">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select class="dropdown">
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                    <div class="option-row">
+                        <span>#2</span>
+                        <select class="dropdown">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <select class="dropdown">
+                            <option>Colour</option>
+                            <option>Red</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="free-shipping">Free 2 Day Shipping</p>
+        <p class="total-price">Total: <strong>DKK 195.00</strong></p>
+    </div>
+
+    <button class="add-to-cart">+ Add to Cart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
